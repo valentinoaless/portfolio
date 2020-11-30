@@ -251,7 +251,7 @@ b {
     display: flex;
 }
 
-#neon-keys {
+#voodoochildren, #neon-keys, #thevault {
     width: 20rem;
     height: 16rem;
     border: 1px solid rgb(255, 0, 111);
@@ -262,19 +262,21 @@ b {
     flex-direction: column;
 }
 
-#neon-keys h2 {
+
+
+.portfolio-item h2 {
     font-size: 2rem;
     font-weight: 400;
 }
 
-#neon-keys p {
+.portfolio-item p {
     font-size: 1rem;
     font-weight: 300;
     width: 80%;
     text-align: center;
 }
 
-.neon-keys-hover {
+.portfolio-item-hover {
     position: absolute;
     opacity: 0%;
     width: 20rem;
@@ -286,12 +288,12 @@ b {
     align-items: center;
 }
 
-.neon-keys-hover ul {
+.portfolio-item-hover ul {
     list-style-type: none;
     font-size: 1rem;
 }
 
-.neon-keys-hover:hover {
+.portfolio-item-hover:hover {
     backdrop-filter: blur(10px);
     opacity: 100%;
 }
