@@ -122,8 +122,6 @@ window.addEventListener("scroll", () => {
     drawSvg(siteElements.skills, `#bg-skills-horizontal-path`, 1);
     drawSvg(siteElements.skills, `#bg-skills-horizontal-path2`, 1);
     drawSvg(siteElements.myWork, `#bg-work-vertical-path`, 1);
-    drawSvg(siteElements.myWork, `#bg-work-vertical-path2`, -1);
-    drawSvg(siteElements.myWork, `#bg-work-vertical-path3`, -1);
     drawSvg(siteElements.about, `#bg-about-horizontal-path`, 1);
     for(i=0; i<=2; i++) {
         drawSvg(siteElements.skills, `#circle-path${i}`, 1);
